@@ -1,0 +1,30 @@
+/* font size */
+$sFontBase: 16px;
+
+/* width */
+$layout-width-sm: 375px;
+$layout-width-md: 768px;
+$layout-width-tab: 1274px;
+$layout-width-pc: 1366px;
+
+/* breakpoint */
+$breakpoints: (
+    "sm": "(max-width: #{$layout-width-sm - 1px})",
+    "md": "(min-width: #{$layout-width-sm})",
+    "tab": "(min-width: #{$layout-width-md})",
+    "tab-only": "(min-width: #{$layout-width-sm}) and (max-width: #{$layout-width-pc - 1px})",
+    "pc": "(min-width: #{$layout-width-pc})"
+);
+
+/* z-index */
+$sLayer: (
+    header: 1000,
+    headerMenu: 1100,
+    toggle: 1110,
+    aboutImg: 10,
+    aboutImgBg: -1,
+);
+
+/* height */
+$sHeaderSm: 60px;
+$sHeaderPc: 80px;

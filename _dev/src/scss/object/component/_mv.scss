@@ -1,0 +1,20 @@
+.c-mv {
+    &__img {
+        color: $cWhite;
+        font-family: $fMainTitle;
+        text-align: center;
+    }
+    &__title {
+        font-size: 3rem;
+        @include mq(pc) {
+            font-size: 5.75rem;
+        }
+    }
+    &__text {
+        font-size: 1.125rem;
+        line-height: 1.28;
+        @include mq(pc) {
+            font-size: 1.625rem;
+        }
+    }
+}
