@@ -1,0 +1,27 @@
+.p-footer {
+    &__menu {
+        padding: 40px 0px;
+    }
+    &__menu-list {
+        justify-content: center;
+    }
+    &__menu-item {
+        margin: 0px 19px;
+        & a {
+            font-size: 1.25rem;
+            font-family: $fMainTitle;
+        }
+    }
+    &__copyright {
+        text-align: center;
+        color: $cWhite;
+        display: block;
+        line-height: 1;
+        margin-top: 30px;
+        @include mq(pc) {
+            text-align: right;
+            margin: 0px;
+            font-size: 0.875rem;
+        }
+    }
+}

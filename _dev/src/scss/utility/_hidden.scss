@@ -1,0 +1,20 @@
+.u-hidden-pc {
+    display: block;
+    @include mq(pc) {
+        display: none;
+    }
+}
+
+.u-hidden-tab {
+    display: block;
+    @include mq(tab-only) {
+        display: none;
+    }
+}
+
+.u-hidden-sm {
+    // display: block;
+    @include mq(sm) {
+        display: none;
+    }
+}

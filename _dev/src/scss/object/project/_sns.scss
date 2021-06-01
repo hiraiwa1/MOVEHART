@@ -1,0 +1,6 @@
+.p-sns {
+    padding: 15px 0 20px;
+    @include mq(pc) {
+        padding: 25px;
+    }
+}
