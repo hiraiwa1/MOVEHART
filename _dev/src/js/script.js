@@ -47,6 +47,6 @@ window.addEventListener("load", () => {
         const windowY = window.innerHeight;
         const img = document.querySelector('.js-image');
 
-            img.style.top = ((-(windowY * 0.5) + scrollH.top) / windowY) * 20 + "%";
+            img.style.top = ((-(windowY * 0.5) + scrollH.top + 250) / windowY) * 20 + "%";
     }, false);
 }, false);
